@@ -24,7 +24,7 @@ public class MyMap {
     }
 
     public List<String> mapLetter() {
-        return array.stream().map(value -> String.valueOf((char)(value+64))).collect(Collectors.toList());
+        return array.stream().map(value -> String.valueOf((char)(value+96))).collect(Collectors.toList());
 
     }
 
